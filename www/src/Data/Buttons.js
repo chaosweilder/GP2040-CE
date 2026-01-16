@@ -735,6 +735,15 @@ export const BUTTON_LAYOUTS = [
 		auxButtons: AUX_BUTTONS,
 		mainButtons: MAIN_BUTTONS,
 	},
+	{
+		label: 'Wonderswan',
+		value: 42,
+		stickLayout: 'standard',
+		matrix: STICK_LAYOUT,
+		auxButtons: AUX_BUTTONS,
+		mainButtons: MAIN_BUTTONS,
+	
+	},
 ];
 
 export const BUTTON_MASKS = [
