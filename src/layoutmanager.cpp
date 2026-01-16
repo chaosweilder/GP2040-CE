@@ -266,7 +266,7 @@ LayoutManager::LayoutList LayoutManager::getRightLayout(uint16_t index) {
         case BUTTON_LAYOUT_BOARD_DEFINED_ALT7_B:
             return this->drawBoardDefinedAlt7B();
 			  case BUTTON_LAYOUT_WONDERSWAN_B:
-            return this->drawWonderswanRigt(); 
+            return this->drawWonderswanRight(); 
         default:
             break;
     }
