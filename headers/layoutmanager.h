@@ -150,6 +150,7 @@ class LayoutManager {
         LayoutList draw6GAWDRight();
         LayoutList draw6GAWDAllButtonRight();
         LayoutList draw6GAWDAllButtonPlusRight();
+				LayoutList drawWonderswan();
 
         LayoutManager::LayoutList getLeftLayout(uint16_t index);
         LayoutManager::LayoutList getRightLayout(uint16_t index);
