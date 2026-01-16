@@ -47,7 +47,7 @@ export default {
 			BUTTON_LAYOUT_BOARD_DEFINED_ALT5_A: 'Board Defined Alternate 5',
 			BUTTON_LAYOUT_BOARD_DEFINED_ALT6_A: 'Board Defined Alternate 6',
 			BUTTON_LAYOUT_BOARD_DEFINED_ALT7_A: 'Board Defined Alternate 7',
-			BUTTON_LAYOUT_WONDERSWAN_A: 'wonderswan',	
+			BUTTON_LAYOUT_WONDERSWAN_A: 'Wonderswan',	
 		},
 		right: {
 			BUTTON_LAYOUT_ARCADE: 'Arcade',
@@ -99,6 +99,7 @@ export default {
 			BUTTON_LAYOUT_BOARD_DEFINED_ALT5_B: 'Board Defined Alternate 5',
 			BUTTON_LAYOUT_BOARD_DEFINED_ALT6_B: 'Board Defined Alternate 6',
 			BUTTON_LAYOUT_BOARD_DEFINED_ALT7_B: 'Board Defined Alternate 7',
+			BUTTON_LAYOUT_WONDERSWAN_B: 'Wonderswan',
 		},
 	},
 };
