@@ -98,6 +98,9 @@ jobs:
           fetch-depth: 0
           fetch-tags: true
 
+      - name: arm-none-eabi-gcc GNU Arm Embedded Toolchain
+        uses: carlosperate/arm-none-eabi-gcc-action@v1.11.1
+
       - name: Setup SDK pipeline
         uses: Fortinbra/RaspberryPiPicoBuild@v7
 
