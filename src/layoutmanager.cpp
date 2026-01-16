@@ -155,7 +155,7 @@ LayoutManager::LayoutList LayoutManager::getLeftLayout(uint16_t index) {
             return drawBoardDefinedAlt6A();   
         case BUTTON_LAYOUT_BOARD_DEFINED_ALT7_A:
             return drawBoardDefinedAlt7A();
-			  case BUTTON_LAYOUT_WONDERSWAN_A:
+		case BUTTON_LAYOUT_WONDERSWAN_A:
             return drawWonderswanLeft(); 
         default:
             break;
@@ -265,7 +265,7 @@ LayoutManager::LayoutList LayoutManager::getRightLayout(uint16_t index) {
             return this->drawBoardDefinedAlt6B();
         case BUTTON_LAYOUT_BOARD_DEFINED_ALT7_B:
             return this->drawBoardDefinedAlt7B();
-			  case BUTTON_LAYOUT_WONDERSWAN_B:
+            case BUTTON_LAYOUT_WONDERSWAN_B:
             return this->drawWonderswanRight(); 
         default:
             break;
