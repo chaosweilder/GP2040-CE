@@ -156,7 +156,7 @@ LayoutManager::LayoutList LayoutManager::getLeftLayout(uint16_t index) {
         case BUTTON_LAYOUT_BOARD_DEFINED_ALT7_A:
             return drawBoardDefinedAlt7A();
 			  case BUTTON_LAYOUT_WONDERSWAN_A:
-            return drawWonderswan(); 
+            return drawWonderswanLeft(); 
         default:
             break;
     }
@@ -265,6 +265,8 @@ LayoutManager::LayoutList LayoutManager::getRightLayout(uint16_t index) {
             return this->drawBoardDefinedAlt6B();
         case BUTTON_LAYOUT_BOARD_DEFINED_ALT7_B:
             return this->drawBoardDefinedAlt7B();
+			  case BUTTON_LAYOUT_WONDERSWAN_B:
+            return this->drawWonderswanRigt(); 
         default:
             break;
     }
@@ -701,9 +703,14 @@ LayoutManager::LayoutList LayoutManager::draw6GAWDAllButtonPlusRight()
     return BUTTON_GROUP_6GAWD_ALLBUTTONPLUS_B;
 }
 
-LayoutManager::LayoutList LayoutManager::drawWonderswan()
+LayoutManager::LayoutList LayoutManager::drawWonderswanLeft()
 {
     return BUTTON_GROUP_WONDERSWAN_A;
+}
+
+LayoutManager::LayoutList LayoutManager::drawWonderswanRight()
+{
+    return BUTTON_GROUP_WONDERSWAN_B;
 }
 
 LayoutManager::LayoutList LayoutManager::drawBlankA()
