@@ -276,6 +276,12 @@ LayoutManager::LayoutList LayoutManager::getRightLayout(uint16_t index) {
             return this->drawBoardDefinedAlt6B();
         case BUTTON_LAYOUT_BOARD_DEFINED_ALT7_B:
             return this->drawBoardDefinedAlt7B();
+			case BUTTON_LAYOUT_BOARD_NEOGEO_AES:
+            return this->drawneogeoaes();
+			case BUTTON_LAYOUT_BOARD_NEOGEO_CDOLD:
+            return this->drawneogeocdold();
+			case BUTTON_LAYOUT_BOARD_NEOGEO_CDNEW:
+            return this->drawneogeocdnew();
         default:
             break;
     }
@@ -710,6 +716,21 @@ LayoutManager::LayoutList LayoutManager::draw6GAWDAllButtonRight()
 LayoutManager::LayoutList LayoutManager::draw6GAWDAllButtonPlusRight()
 {
     return BUTTON_GROUP_6GAWD_ALLBUTTONPLUS_B;
+}
+
+LayoutManager::LayoutList LayoutManager::drawneogeoaes()
+{
+    return BUTTON_GROUP_NEOGEO_AES;
+}
+
+LayoutManager::LayoutList LayoutManager::drawneogeocdold()
+{
+    return BUTTON_GROUP_NEOGEO_CDOLD;
+}
+
+LayoutManager::LayoutList LayoutManager::drawneogeocdnew()
+{
+    return BUTTON_GROUP_NEOGEO_CDNEW;
 }
 
 LayoutManager::LayoutList LayoutManager::drawBlankA()
