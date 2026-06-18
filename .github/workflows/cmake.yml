@@ -70,6 +70,7 @@ on:
           - Stress
           - SGFDevices
           - ZeroRhythm
+          - NEOGP-PRO
 
 env:
   BUILD_TYPE: Release
