@@ -84,8 +84,7 @@
 
 
 #define DEFAULT_BOARD_LAYOUT_A {\
-    {{GP_ELEMENT_LEVER,  { 17, 37, 10, 10, 1, 0, 0}}}
-}
+    {{GP_ELEMENT_LEVER,  { 17, 37, 10, 10, 1, 0, 0}}}}
 
 #define DEFAULT_BOARD_LAYOUT_B {\
     {GP_ELEMENT_BTN_BUTTON, {73, 50, 5, 5, 1, 1, GAMEPAD_MASK_B1, GP_SHAPE_ELLIPSE}},\
