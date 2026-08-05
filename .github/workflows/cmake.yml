@@ -71,6 +71,7 @@ on:
           - SGFDevices
           - ZeroRhythm
           - NEOGP-PRO
+          - NEOGP-BASIC
 
 env:
   BUILD_TYPE: Release
